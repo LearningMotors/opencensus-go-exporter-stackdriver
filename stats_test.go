@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
+	monitoring "cloud.google.com/go/monitoring/apiv3"
 	"contrib.go.opencensus.io/exporter/stackdriver/monitoredresource"
 
-	"cloud.google.com/go/monitoring/apiv3"
 	"github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/google/go-cmp/cmp"
 	"go.opencensus.io/stats"
